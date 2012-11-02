@@ -23,7 +23,7 @@ Zeromq + neo4j proof of concept. A zeromq service on top of a Neo4j database, su
 * request size in bytes
 * request itself (cypher or index command)
 
-#### Responses
+#### responses
 
 * connection id
 * transaction id
