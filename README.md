@@ -4,14 +4,14 @@ Zeromq + neo4j proof of concept. A zeromq service on top of a Neo4j database, su
 
 ## Protocol/Messaging
 
-#### connect, set connection variables:
+#### connect, set connection variables
 
 * authentication
 * encryption options
 * compression options
 * batch size (number of result rows to return before waiting to be asked for more)
 
-#### connect acknowledgement:
+#### connect acknowledgement
 
 * connection id (assigned by server)
 
